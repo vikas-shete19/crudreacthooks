@@ -11,6 +11,7 @@ const AddUserDetails = props => {
     setUser({ ...user, [name]: value })
   }
   return (
+
     <form
       onSubmit={event => {
         event.preventDefault()
